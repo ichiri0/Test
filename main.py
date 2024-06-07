@@ -1,14 +1,7 @@
-import math_test
-import utils
+a = [2, 5, 1, 6, 2, 7, 9]
 
-print("основной код")
+a = sorted(a)
 
-print("Код из файла main.py")
-a = 10
-b = 20
-result = math_test.math_test(a, b)
-print(result)
+a.reverse()
 
-
-print("Код из файла utils.py")
-utils.utils_test()
+print(a)
